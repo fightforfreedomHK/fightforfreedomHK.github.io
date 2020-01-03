@@ -1,0 +1,36 @@
+header{
+    /*Visual*/
+    height: 60px;
+    background-color: black;
+    opacity: 0.85;
+    border-bottom: 1px solid lightgray;
+    padding: 0 40px;
+    /*Alignment for child*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container-logo a{
+    color: aliceblue;
+    font-size: 1.6em;
+}
+
+header .container-nav{
+    color: aliceblue;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+header .container-nav > div{
+    margin: 0 12px;
+}
+
+header .container-nav > div:last-child{
+    margin-right: 0;
+}
+
+header .container-nav .btn:hover i{
+    color: cornflowerblue;
+}

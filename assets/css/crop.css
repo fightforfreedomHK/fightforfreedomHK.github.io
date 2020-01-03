@@ -1,0 +1,22 @@
+html, body{
+    height: 100%;
+}
+
+.container-main{
+    height: 92%;
+}
+
+.container-main .left{
+    float: left;
+    height: 100%;
+    width: 20%;
+    background-color: #2E2F38;
+    border-right: 1px solid lightgray;
+}
+
+.container-main .right{
+    float: left;
+    height: 100%; 
+    width: 80%;
+    background-color: #1F2125;
+}
